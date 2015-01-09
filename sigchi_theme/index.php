@@ -2,6 +2,7 @@
 
 <!-- Begin Content -->
 <div id="content">
+
 <?php if (have_posts()) : ?>
 <?php while (have_posts()) : the_post(); ?>
 	<article class="post-box" id="post-box-<?php the_ID(); ?>">

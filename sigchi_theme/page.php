@@ -2,6 +2,7 @@
 
 <!-- Begin Content -->
 <div id="content" class="page-<?php the_ID(); ?>">
+
 <?php if (have_posts()) : ?>
 <?php while (have_posts()) : the_post(); ?>
 	<article class="page" id="post-<?php the_ID(); ?>">

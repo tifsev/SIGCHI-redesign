@@ -1,10 +1,9 @@
 <?php /* Template Name: Home Page */ ?>
-
 <?php get_header(); ?>
 
 <!-- Begin Spotlight -->
 <div id="spotlight">
-<?php add_flexslider(); ?>
+<?php add_flexslider(); ?> 
 </div>
 <!-- End Spotlight -->
 

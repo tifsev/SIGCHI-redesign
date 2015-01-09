@@ -26,9 +26,10 @@
 <!-- Begin Links -->
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/ico-poop.png" />
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css" media="all" />
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/calendar.css" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Voces' rel='stylesheet' type='text/css'>
 <!-- End Links -->
 
 <!-- Begin Scripts -->
@@ -63,21 +64,10 @@
 
 	<!-- Begin Logo -->
     <div id="logo">
-    <a href="<?php echo get_settings('home'); ?>" title="Wireframe's Home Page"><img src="<?php bloginfo('template_directory'); ?>/images/FPO-logo.png" alt="Wireframe" /></a>
+    <a href="<?php echo get_settings('home'); ?>" title="SIGCHI's Home Page"><img src="<?php bloginfo('template_directory'); ?>/images/FPO-logo.png" alt="Wireframe" /><h1>SIGCHI Puget Sound</h1></a>
   </div>
 	<!-- End Logo -->
     
-    <!-- Begin Tchotchkes -->
-    <div id="tchotchkes">
-        
-        <!-- Begin Download Notice -->
-        <div id="notice">
-        <p><a href="https://github.com/msinkula/mikes-960-wireframe/archive/master.zip">Download this theme!</a></p>
-        </div>
-        <!-- End Download Notice -->
-    
-    </div>
-    <!-- End Tchotchkes -->
 </div>
 <!-- End Header -->
 

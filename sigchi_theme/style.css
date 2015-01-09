@@ -1,9 +1,9 @@
 /*  
-Theme Name: Mike's 960 Wireframe
-Description: This is a theme your mom and her sister would love.
-Version: 69
-Author: Premium Design Works
-Author URI: http://www.premiumdw.com/
+Theme Name: SIGCHI responsive theme
+Description: A responsive theme
+Version: 1
+Author: TMT Design
+Author URI: 
 */
 
 /* 	
@@ -32,11 +32,11 @@ Black: http://slayeroffice.com/tools/color_palette/?hex=000000
 html { -webkit-text-size-adjust: none; }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Muli', Verdana, Arial, Helvetica, sans-serif;
 	font-size: 100%; /* 16px */
 	line-height: 150%; /* 24px */
 	color: #000; /* black */
-	background: url(images/bg-12col.png) center repeat-y;
+	/*background: url(images/bg-12col.png) center repeat-y;*/
 	
 	}
 	
@@ -50,7 +50,7 @@ a:link, a:visited, a:active, a:hover {
 	}
 		
 h1, h2, h3, h4 {
-	font-family: "FeltTipRomanRegular", sans-serif;
+	font-family: "Voces", sans-serif;
 	font-weight: normal;
 	line-height: 100%;
 	}
@@ -702,7 +702,7 @@ h1, h2, h3, h4 {
 	}
 
 #footer p {
-	font-family: "FeltTipRomanRegular", sans-serif;
+	font-family: verdana, sans-serif;
 	text-align:left;
 	}
 	
@@ -902,7 +902,7 @@ h1, h2, h3, h4 {
 	#print-header h1 {
 		display: block;
 		font-size: 36px;
-		font-family: "FeltTipRomanRegular", sans-serif;
+		font-family: "Voces", sans-serif;
 		font-weight:normal;
 		margin-bottom: 20px;
 	}
