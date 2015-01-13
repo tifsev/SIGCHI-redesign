@@ -18,34 +18,48 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	display: block;
 }
 /*****************STRUCTURE******************/
-
-
+body{
+	margin: 0 auto;	
+}
 header{
 	margin: 1%;
 }
 section{
-	
+	padding: 1%;
 }
 #cta{
 	background-color: red;
-	margin:1%;
 	padding: 1%;
 }
 
 footer{
 	background-color: darkgrey;
 	min-height: 300px;
-	margin: 1%;
 	clear: both;
 }
 
 .col1of3{
-	margin:1%;
+	margin: 1%;
 	padding:1%;
 	background-color: lightgrey;
 }
+#event{
+	max-width: 100%;
+}
 
-
+/*******************fonts*********************/
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+}
+h1{
+	font-size:1.313em;
+}
+h2{
+	font-size: 1.125em;
+}
+h3{
+	font-size: 1em;
+}	
 
 /****************NAVIGATION******************/
 
@@ -74,16 +88,23 @@ footer{
 	text-decoration: none;
 }
 
+/***********slideshow*********************/
+#slideshow img{
+	max-width: 100%;
+}
 
-
-
-/************** Media Queries ************/
-
-
+/*************Media Queries ************/
 
 /* tablet*/
 
 @media all and (min-width:37.5em) {
+	aside{
+		width: 33%;
+		float: right;
+		padding: 1%;
+	}
+
+	
 	#main-nav li {
 		float: left;
 		width: 20%;
@@ -94,7 +115,8 @@ footer{
 		
 	}
 	#cta{
-		height: 100%;
+		width: 100%;
+		float: left;
 	}
 	
 	.col1of3{
@@ -102,13 +124,35 @@ footer{
 		width: 31%;
 	}
 	
+	.main-content{
+		width: 66%;
+		float: left;
+		min-height: 400px;
+	}
+	.main-content h2, p{
+		width: 66%;
+		float: left;
+		
+	}
+	.main-content img{
+		float: left;
+		padding-left: 1%;
+	}
+	
+	#event {
+		width: 66%;
+	}
+	
+	
 }
 
 
 /* PC*/
 
 @media all and (min-width:57.75em) {
-
+	body{
+		width: 100%;
+	}
 }
 
 
