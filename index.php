@@ -1,12 +1,5 @@
 <?php include 'includes/header.php'; ?>
-<section id="hero">
-	<div id="slideshow">
-		<img src="http://placekitten.com/1300/600">
-		<img src="http://placekitten.com/1300/599">
-		<img src="http://placekitten.com/1300/595">
-	</div>
 
-</section>
 
 <section id="cta">
 

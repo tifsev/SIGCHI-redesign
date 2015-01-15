@@ -14,11 +14,12 @@
 </head>
 <body>
 <header>
+<section class="hero">
+	
 	<a href="index.php"> <img src="images/logo_u80.png" alt="SigChi Logo"/></a>
 	<nav id="top-nav">
 		<ul>
-			<li><a href="#">Login</a></li>
-			<li><a href="#">Members</a></li>
+			<li><a href="members.php">Member Login</a></li>
 		</ul>
 	</nav>
 	<nav id="main-nav">
@@ -30,14 +31,16 @@
 				<a href="about.php">About</a>
 			</li>
 			<li>
-				<a href="#">Jobs</a>
+				<a href="jobs.php">Jobs</a>
 			</li>
 			<li>
-				<a href="#">Volunteer</a>
-			</li>
-			<li>
-				<a href="#">Join</a>
+				<a href="join.php">Join</a>
 			</li>
 		</ul>
 	</nav>
+	<p>We are Puget Sound SIG CHI</p>
+	<h1>Northwest UX Professionals</h1>
+
+</section>
+	
 </header>

@@ -1,9 +1,9 @@
 <?php include 'includes/header.php'; ?>
 <section class="main-content">
-	
+	<section>
 		<h2>All Jobs</h2>
 		<p> Event Description</p>
-	
+	</section>
 
 	
 </section>
