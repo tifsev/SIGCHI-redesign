@@ -1,6 +1,6 @@
 
-<footer>
-	This is the footer
+<footer >
+	<p>&copy; <?php echo date("Y"); ?></p>
 </footer>
 
 	

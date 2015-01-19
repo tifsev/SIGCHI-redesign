@@ -26,14 +26,16 @@ section{
 	padding: 1%;
 }
 #cta{
-	background-color: #575757;
+	background-color: #fff;
 	padding: 1%;
 }
 
 footer{
-	background-color: darkgrey;
+	background-color: #333337;
 	min-height: 300px;
 	clear: both;
+	padding: 2%;
+	color: #fff
 }
 
 ul li{
@@ -43,21 +45,30 @@ ul li{
 .col1of3{
 	margin: 1%;
 	padding:1%;
-	background-color: lightgrey;
 }
 #event img{
 	max-width: 100%;
 }
+#cta img{
+	max-width: 100%;
+}
 .hero{
-	background: #000 url("../images/Downtown-Seattle.jpg") no-repeat center center fixed;
+	background: url("../images/Downtown-Seattle.jpg") no-repeat center center fixed;
 }
 .hero h1, .hero p{
 	text-align: center;
 	color: #fff;
 }
-.color-overlay{
-	
-}
+
+/*.color-overlay{
+	background-color: rgba(0, 0, 0, 0.7);
+	opacity: .5;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}*/
 #nav-collapse{
 	color: #fff;
 	position: absolute;
@@ -66,8 +77,22 @@ ul li{
 	padding: 3%;
 }
 /*******************fonts*********************/
+
 h1,h2,h3,h4,h5,h6{
 	font-weight: bold;
+	font-family: 'Muli', Helvetica, sans-serif;
+	line-height: 1.5;
+
+}
+p, li{
+	font-family: 'Muli', Helvetica, sans-serif;
+	line-height: 1.5;
+}
+#cta p{
+	padding-top: 3%;
+}
+#cta h1, #cta h2, #cta h3,#cta h4,#cta h5,#cta h6{
+	padding: 1%;
 }
 h1{
 	font-size:1.313em;
@@ -80,6 +105,10 @@ h3{
 }	
 .hero h1{
 	font-size: 2em;
+}
+
+.hero p{
+	font-size: 1.5em;
 }
 
 /****************NAVIGATION******************/
@@ -155,6 +184,10 @@ h3{
 	#cta{
 		width: 100%;
 		float: left;
+	}
+	#cta img{
+		height: 250px;
+		width: 380px;
 	}
 	
 	.col1of3{

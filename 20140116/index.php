@@ -4,14 +4,20 @@
 <section id="cta">
 
 	<article class="col1of3" id="events">
-	test
-	<br>
+	<a href="events.php"><h2>Events</h2>
+	<img src="images/red.jpg"></a>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu ipsum lobortis, congue nulla eget, vulputate quam. Curabitur quis urna id leo vehicula hendrerit ac et ipsum. Nunc a posuere velit. Sed ornare metus sed nibh aliquam aliquet. </p>
+
+	</article>
+	<article class="col1of3" id="membership">
+	<a href="members.php"><h2>Membership</h2>
+	<img src="images/fillerImg2.jpg"></a>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu ipsum lobortis, congue nulla eget, vulputate quam. Curabitur quis urna id leo vehicula hendrerit ac et ipsum. Nunc a posuere velit. Sed ornare metus sed nibh aliquam aliquet. </p>
 	</article>
 	<article class="col1of3" id="jobs">
-	test
-	</article>
-	<article class="col1of3" id="about">
-	test
+	<a href="jobs.php"><h2>Jobs</h2>
+	<img src="images/fillerImg3.png" ></a>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu ipsum lobortis, congue nulla eget, vulputate quam. Curabitur quis urna id leo vehicula hendrerit ac et ipsum. Nunc a posuere velit. Sed ornare metus sed nibh aliquam aliquet. </p>
 	</article>
 
 </section>

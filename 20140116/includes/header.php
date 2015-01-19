@@ -8,6 +8,7 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" href="css/styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="scripts/script.js"></script>
 	<!--<script>
@@ -21,8 +22,10 @@
 <body>
 <header>
 <section class="hero">
-	
-	<a href="index.php"> <img src="images/logo_u80.png" alt="SigChi Logo"/></a>
+	<div class="color-overlay">
+		<!--<img src="images/Downtown-Seattle.jpg" style="width:100%; height: 100%;">-->
+	</div>
+	<div><a href="index.php"> <img src="images/logo_u80.png" alt="SigChi Logo"/></a></div>
 	<nav id="top-nav">
 		<ul>
 			<li><a href="members.php">Member Login</a></li>
@@ -45,8 +48,10 @@
 			</li>
 		</ul>
 	</nav>
-	<p>We are Puget Sound SIG CHI</p>
-	<h1>Northwest UX Professionals</h1>
+	<section>
+		<p>We are Puget Sound SIG CHI</p>
+		<h1>Northwest UX Professionals</h1>
+	</section>
 
 </section>
 	
