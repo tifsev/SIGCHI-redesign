@@ -8,6 +8,8 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/font-awesome-4.2.0/css/font-awesome.min.css">
+
 	<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="scripts/script.js"></script>

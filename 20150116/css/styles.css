@@ -15,6 +15,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	display: block;
 }
 /*****************STRUCTURE******************/
+html, body{
+	height: 100%;
+}
 body{
 	margin: 0 auto;	
 	
@@ -32,14 +35,22 @@ section{
 
 footer{
 	background-color: #333337;
-	min-height: 300px;
 	clear: both;
 	padding: 2%;
-	color: #fff
+	color: #fff;
+	/*background: #333337 url(../images/logo_u80.png) no-repeat 1% 1%;*/
 }
 
 ul li{
 	padding-top: 4%;
+}
+.col1of2{
+	margin: 1%;
+	padding:1%;
+	text-align: center;
+}
+.col1of2 i{
+	padding: 6%;
 }
 
 .col1of3{
@@ -109,6 +120,9 @@ h3{
 
 .hero p{
 	font-size: 1.5em;
+}
+#copy{
+	font-size: x-small;
 }
 
 /****************NAVIGATION******************/
@@ -190,6 +204,16 @@ h3{
 		width: 380px;
 	}
 	
+	.col1of2{
+		float: left;
+		width: 48%;
+		text-align: left;
+	}
+	.col1of2 i{
+		padding-right:9%;
+		padding-left: 0%;
+	}
+	
 	.col1of3{
 		float: left;
 		width: 31%;
@@ -233,7 +257,14 @@ h3{
 	#event img{
 		width: 66%;
 	}
-	
+	footer{
+		
+	}
+	#footer-img{
+		float: right;
+		margin-top: -27%;
+		padding-right: 2%;
+	}
 	
 }
 
@@ -247,6 +278,9 @@ h3{
 	
 	#main-nav li {
 		padding: 8%;
+	}
+	#footer-img{
+		margin-top: -16%;
 	}
 }
 
