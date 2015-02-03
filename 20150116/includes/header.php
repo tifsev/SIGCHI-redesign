@@ -23,10 +23,11 @@
 </head>
 <body>
 <header>
+
 <section class="hero">
-	<div class="color-overlay">
+	
 		<!--<img src="images/Downtown-Seattle.jpg" style="width:100%; height: 100%;">-->
-	</div>
+	
 	<div><a href="index.php"> <img src="images/logo_u80.png" alt="SigChi Logo"/></a></div>
 	<nav id="top-nav">
 		<ul>
@@ -54,7 +55,8 @@
 		<p>We are Puget Sound SIG CHI</p>
 		<h1>Northwest UX Professionals</h1>
 	</section>
-
+<div class="color-overlay"></div>
 </section>
+
 	
 </header>
